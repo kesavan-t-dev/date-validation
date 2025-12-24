@@ -1,4 +1,4 @@
-function showDateTime() {
+function show_date_time() {
     const now = new Date();
     document.getElementById("current_year").innerText = now.getFullYear();
     document.getElementById("current_month").innerText = now.getMonth()+1;
@@ -12,7 +12,7 @@ function showDateTime() {
     document.getElementById("utc_milliseconds").innerText = now.getUTCMilliseconds();
 }
 
-function resetData() {
+function reset_data() {
     const ids = [
         "current_year","current_month","current_date",
         "current_hour","current_minute","current_seconds",
